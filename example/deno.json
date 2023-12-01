@@ -1,0 +1,12 @@
+{
+  "lock": false,
+  "imports": {
+    "preact/": "npm:/preact/",
+    "hono/": "https://deno.land/x/hono@v3.10.3/"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact",
+    "lib": ["deno.window", "dom"]
+  }
+}
